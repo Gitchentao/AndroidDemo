@@ -10,6 +10,8 @@ import java.util.List;
  */
 public class ActivityCollector {
 
+    private static String TAG = "ActivityCollector";
+
     public static List<Activity> activityList = new ArrayList<>();
 
     public static void addActivity(Activity activity){
@@ -22,6 +24,7 @@ public class ActivityCollector {
 
     public static void finishAll(){
         for (Activity activity : activityList){
+
             if (!activity.isFinishing()){
                 activity.finish();
             }

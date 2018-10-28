@@ -1,10 +1,10 @@
 package com.example.lucky.reviewbase;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +32,7 @@ public class FragmentActivity extends AppCompatActivity implements View.OnClickL
         replaceFragment(new RightFragment());
 
         Log.d(TAG, "onCreate: 11111111111111111111111");
+
 
     }
 

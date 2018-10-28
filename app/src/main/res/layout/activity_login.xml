@@ -73,6 +73,12 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold" />
 
+            <CheckBox
+                android:id="@+id/remember_pass"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>
